@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/zhuce.css">
+</head>
+<body>
+<div id="head"></div>
+<div class="zhuce_content">
+    <div class="zhuce_content_one">
+        <div class="zhuce_one_title">会员中心</div>
+    </div>
+    <div class="zhuce_content_two">
+        <div class="zhuce_two_content">
+            <div class="zhuce_two_content_title">会员注册</div>
+            <table class="zhuce_two_content_list">
+                <tr>
+                    <td><div><img src="img/后十年%20姓名.png"></div></td>
+                    <td><input type="text" placeholder="会员名"></td>
+                </tr>
+                <tr>
+                    <td><div><img src="img/emi密码.png"></div></td>
+                    <td><input type="text" placeholder="密码"></td>
+                </tr>
+                <tr>
+                    <td><div><img src="img/emi密码.png"></div></td>
+                    <td><input type="text" placeholder="重复密码"></td>
+                </tr>
+                <tr>
+                    <td><div><img src="img/验证码填充.png"></div></td>
+                    <td>
+                        <input class="youzheng" type="text" placeholder="验证码">
+                    </td>
+                    <td><div class="yanzhengma"><img src="img/yan.png"></div></td>
+                </tr>
+            </table>
+            <div class="gengduo">
+                <div class="xian"></div>
+                <div class="gengduoziliao">更多资料</div>
+                <div class="xian"></div>
+            </div>
+            <table class="zhuce_two_content_list1">
+                <tr>
+                    <td>公司名称</td>
+                    <td><input type="text" placeholder="公司名称"></td>
+                </tr>
+                <tr>
+                    <td>公司传真</td>
+                    <td><input type="text" placeholder="公司传真"></td>
+                </tr>
+                <tr>
+                    <td>公司联系地址</td>
+                    <td><input type="text" placeholder="公司联系地址"></td>
+                </tr>
+                <tr>
+                    <td>公司邮政编码</td>
+                    <td><input type="text" placeholder="公司邮政编码"></td>
+                </tr>
+                <tr>
+                    <td>公司网址</td>
+                    <td><input type="text" placeholder="公司网址"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="dl()">立即注册</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span><a href="登录.html">已有账号？</a></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="bottom"></div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    $("#bottom").load("bottom.html");
+    $("#head").load("title.html");
+    function dl() {
+        window.location.href='登录.html';
+    }
+</script>
+</body>
+</html>

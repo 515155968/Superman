@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="css/head.css">
+</head>
+<body>
+<div class="head">
+    <div class="head_content">
+        <div class="head_left">
+            <img src="img/img_01.png">
+        </div>
+        <div class="head_center">
+            <div class="head_center_left">
+                <ul class="head_center_content">
+                    <li><a href="首页.html">网站首页</a></li>
+                    <li id="test1"><a href="智能手表.html">产品<img src="img/下拉%20(2).png"></a></li>
+                    <li id="test2"><a href="售后政策.html">支持<img src="img/下拉%20(2).png"></a></li>
+                    <li id="test3"><a href="产品资讯.html">博客<img src="img/下拉%20(2).png"></a></li>
+                    <li id="test4"><a href="关于我们.html">关于<img src="img/下拉%20(2).png"></a></li>
+                </ul>
+            </div>
+            <div class="head_right">
+                <button onclick="dl()">登录</button>
+                <button onclick="zc()">注册</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="test1_1">
+    <div class="test1_content">
+        <ul class="test1_list">
+            <li><a href="智能手表.html">智能手表</a></li>
+            <li><a href="智能眼镜.html">智能眼镜</a></li>
+            <li><a href="机器人.html">机器人</a></li>
+            <li><a href="体感车.html">体感车</a></li>
+            <li><a href="无人机.html">无人机</a></li>
+        </ul>
+    </div>
+</div>
+<div id="test2_2">
+    <div class="test1_content">
+        <ul class="test1_list">
+            <li><a href="售后政策.html">售后政策</a></li>
+            <li><a href="相关下载.html">相关下载</a></li>
+        </ul>
+    </div>
+</div>
+<div id="test3_3">
+    <div class="test1_content">
+        <ul class="test1_list">
+            <li><a href="产品资讯.html">产品资讯</a></li>
+            <li><a href="行业动态.html">行业动态</a></li>
+            <li><a href="国际资讯.html">国际资讯</a></li>
+        </ul>
+    </div>
+</div>
+<div id="test4_4">
+    <div class="test1_content">
+        <ul class="test1_list">
+            <li><a href="关于我们.html">关于我们</a></li>
+            <li><a href="联系我们.html">联系我们</a></li>
+            <li><a href="加入我们.html">加入我们</a></li>
+            <li><a href="意见反馈.html">意见反馈</a></li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    function bindMouse(){
+        var _hidediv2;
+        var _o1=document.getElementById("test1");
+        var _o2=document.getElementById("test1_1");
+        _o1.onmousemove=function(){
+            _o2.style.display="block";
+        };
+        _o1.onmouseout=function(){
+            _hidediv2=setTimeout(function(){_o2.style.display="none";},9000);
+        };
+        _o2.onmousemove=function(){
+            clearTimeout(_hidediv2);
+            this.style.display="block";
+        };
+        _o2.onmouseout=function(){
+            this.style.display="none";
+        }
+    }
+    function bindMouse1(){
+        var _hidediv2;
+        var _o1=document.getElementById("test2");
+        var _o2=document.getElementById("test2_2");
+        _o1.onmousemove=function(){
+            _o2.style.display="block";
+        };
+        _o1.onmouseout=function(){
+            _hidediv2=setTimeout(function(){_o2.style.display="none";},9000);
+        };
+        _o2.onmousemove=function(){
+            clearTimeout(_hidediv2);
+            this.style.display="block";
+        };
+        _o2.onmouseout=function(){
+            this.style.display="none";
+        }
+    }
+    function bindMouse2(){
+        var _hidediv2;
+        var _o1=document.getElementById("test3");
+        var _o2=document.getElementById("test3_3");
+        _o1.onmousemove=function(){
+            _o2.style.display="block";
+        };
+        _o1.onmouseout=function(){
+            _hidediv2=setTimeout(function(){_o2.style.display="none";},9000);
+        };
+        _o2.onmousemove=function(){
+            clearTimeout(_hidediv2);
+            this.style.display="block";
+        };
+        _o2.onmouseout=function(){
+            this.style.display="none";
+        }
+    }
+    function bindMouse3(){
+        var _hidediv2;
+        var _o1=document.getElementById("test4");
+        var _o2=document.getElementById("test4_4");
+        _o1.onmousemove=function(){
+            _o2.style.display="block";
+        };
+        _o1.onmouseout=function(){
+            _hidediv2=setTimeout(function(){_o2.style.display="none";},9000);
+        };
+        _o2.onmousemove=function(){
+            clearTimeout(_hidediv2);
+            this.style.display="block";
+        };
+        _o2.onmouseout=function(){
+            this.style.display="none";
+        }
+    }
+    bindMouse();
+    bindMouse1();
+    bindMouse2();
+    bindMouse3();
+    function dl() {
+        window.location.href='登录.html';
+    }
+    function zc() {
+        window.location.href='注册.html';
+    }
+</script>
+</body>
+</html>

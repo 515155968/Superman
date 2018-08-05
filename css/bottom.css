@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bottom{
+    width: 100%;
+    height: 33vw;
+}
+.bottom_content{
+    width: 75%;
+    height: 18vw;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #F2F2F2 ;
+}
+.bottom_content_list{
+    margin-top: 3vw;
+}
+.bottom_content_list li{
+    list-style: none;
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 0.5vw;
+
+}
+.bottom_content_list li:first-child{
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.bottom_content_list li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #2A333C;
+}
+.bottom_content_list li a:hover{
+    color: #62A8EA;
+}
+.bottom_content_list1{
+    margin-top: 3vw;
+}
+.bottom_content_list1 li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.1vw;
+    margin-bottom: 1.5vw;
+}
+.bottom_content_list1 li:first-child{
+    font-size: 2.2vw;
+    color: #62A8EA;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+.bottom_content_list1 li:first-child:hover{
+    opacity: 0.7;
+}
+.bottom_content_list1 li:last-child{
+    margin-right: 1vw;
+}
+.bottom_content_list1 li:last-child img{
+   margin-left: 1.5vw;
+    cursor: pointer;
+}
+.bottom_content_list1 li:last-child img:hover{
+    opacity: 0.8;
+}
+.bottom_content2_one{
+    width: 100%;
+    height: 4vw;
+    font-size: 1.3vw;
+    color: black;
+    text-align: center;
+    padding-top: 1.5vw;
+    border-bottom: 2px solid #F2F2F2;
+}
+.bottom_content2_one span{
+    color:#5E7387 ;
+    cursor: pointer;
+    font-size: 1.1vw;
+}
+.bottom_content2_one span .qiye:hover{
+    color: #62A8EA;
+}
+.bottom_content3{
+    margin-top: 2vw;
+}
+.bottom_content3 .bottom_content3_one{
+    text-align: center;
+    font-size: 1vw;
+}
+.bottom_content3_two{
+    font-size: 1.1vw;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+.bottom_content3_three{
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+.bottom_content3_three span{
+    color: #62A8EA;
+    cursor: pointer;
+}
+.bottom_weixinma{
+    width: 11vw;
+    height: 11vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: 70%;
+    border: 1px solid #000000;
+    display: none;
+    cursor: pointer;
+}
+.bottom_weixinma img{
+    padding: 0.7vw;
+}
